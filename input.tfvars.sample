@@ -1,0 +1,8 @@
+aws_region = "us-east-1"
+stack_name = "elkstack1"
+cloudtrail_logs_prefix = ""
+cloudwatch_logs_prefix = "cloudwatch"
+log_groups = ["elk_test"]
+
+cloud_id = "<cloud_id_from_kibana>"
+cloud_auth = "<user>:<password>"
